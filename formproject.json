@@ -1,0 +1,475 @@
+{ 
+    "ctor": "Container",
+    "pros":{},
+    "id": "container_0",
+    "css": {
+      "display": "block",
+      "justify-content": "space-between",
+      "background-color": "#000000",
+      "color": "white"
+    },
+  
+    "components": [
+      {
+        "ctor": "Container",
+        "props": {
+          "id": "container_1a",
+          "css": {
+            "display": "flex",
+            "justify-content": "space-between",
+            "background-color": "white",
+            "color": "black"
+          },
+  
+          "components": [
+            {
+              "ctor": "Container",
+              "props": {
+                "id": "container_2",
+                "css": {
+                  "display": "block",
+                  "justify-content": "space-between",
+                  "background-color": "#000000",
+                  "color": "white"
+                },
+                "components": [
+                  {
+                    "ctor": "Container",
+                    "props": {
+                      "type": "form-row",
+                      "id": "container_3",
+                      "css": {
+                        "display": "flex",
+                        "justify-content": "space-between",
+                        "background-color": "#000000",
+                        "color": "white"
+                      },
+                      "components": [
+                        {
+                          "ctor": "FormField",
+                          "props": {
+                            "label": "Test",
+                            "css": {
+                              "display": "block"
+                            },
+                            "component": {
+                              "ctor": "AutoBrowse",
+                              "props": {}
+                            },
+                          },
+                        },
+                      ],
+                    },
+                  },
+  
+                  {
+                    "ctor": "Container",
+                    "props": {
+                      "id": "container_4",
+                      "css": {
+                        "display": "flex",
+                        "justify-content": "space-between",
+                        "background-color": "#000000",
+                        "color": "white",
+                      },
+                      "components": [
+                        {
+                          "ctor": "DropDown",
+                          "props": {
+                            "id": "Dropdown2",
+                            "valueField": "key",
+                            "labelField": "title",
+                            "label": "Commercial Term ",
+  
+                            "dataProvider": "new ArrayEx([])"
+                          },
+                        },
+  
+                        {
+                          "ctor": "DateCmp",
+                          "props": {},
+                        },
+                      ],
+                    },
+                  },
+  
+                  {
+                    "ctor": "Container",
+                    props: {
+                      id: "container_5",
+                      css: {
+                        display: "flex",
+                        "justify-content": "space-between",
+                        "background-color": "#000000",
+                        color: "white",
+                        width: "100%",
+                      },
+                      components: [
+                        {
+                          ctor: TextInput,
+                          props: {
+                            id: "textField",
+                            value: "",
+                            type: "password",
+                            "placeholder": "Username",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                ],
+              },
+            },
+  
+            {
+              "ctor": "Container",
+              "props": {
+                "id": "container_22",
+                "css": {
+                  "display": "block",
+                  "justify-content": "space-between",
+                  "background-color": "#000000",
+                  "color": "white",
+                },
+                "components": [
+                  {
+                    "ctor": "Container",
+                    "props": {
+                      "id": "container_33",
+                      "css": {
+                        "display": "flex",
+                        "justify-content": "space-between",
+                        "background-color": "#000000",
+                        "color": "white",
+                      },
+                      "components": [
+                        {
+                          "ctor": "AutoBrowse",
+                          "props": {
+                            "id": "autobrowse1",
+                            "label": "",
+  
+                            "CSS": {
+                              "background-color": "#000000",
+                            },
+                          },
+                        },
+                        {
+                          "ctor": "CurrencyExRate",
+                          "props": {
+                            "id": "CurrencyExRate",
+                            "labelField": "title",
+                            "valueField": "key",
+                            "value": {
+                              "exRate": "124.4",
+                              "currency": "1",
+                              "label": "Click me",
+                            },
+                            "currencyList": "new ArrayEx([
+                              {
+                                "key": "f1",
+                                "title": "Folder 1"
+                              },
+                              {
+                                "key": "f2",
+                                "title": "Folder 2"
+                              },
+                              {
+                                "key": "f3",
+                                "title": "Folder 3"
+                              },
+                              {
+                                "key": "f4",
+                                "title": "Folder 4"
+                              },
+                              {
+                                "key": "f5",
+                                "title": "Folder 5"
+                              },
+                              {
+                                "key": "f6",
+                                "title": "Folder 6"
+                              },
+                            ]),
+                          },
+                        },
+                      ],
+                    },
+                  },
+  
+                  {
+                    "ctor": "Container",
+                    "props": {
+                      "id": "container_44",
+                      "css": {
+                        "display": "flex",
+                        "justify-content": "space-between",
+                        "background-color": "#000000",
+                        "color": "white",
+                      },
+                      "components": [
+                        {
+                          "ctor": "DropDown",
+                          "props": {
+                            "id": "Dropdown2",
+                            "valueField": "key",
+                            "labelField": "title",
+                            "label": "Commercial Term ",
+  
+                            "dataProvider": "new ArrayEx([])"
+                          },
+                        },
+  
+                        {
+                          "ctor": "DateCmp"
+                          
+                        },
+                      ],
+                    },
+                  },
+  
+                  {
+                    "ctor": "Container",
+                    "props": {
+                      "id": "container_55",
+                      "css": {
+                        "display": "flex",
+                        "justify-content": "space-between",
+                        "background-color": "#000000",
+                        "color": "white",
+                        "width": "100%"
+                      },
+                      "components": [
+                        {
+                          "ctor": "TextInput",
+                          "props": {
+                            "id": "textField",
+                            "value": "",
+                            "type": "password",
+                            "placeholder": "Username",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                ],
+              },
+            },
+          ],
+        },
+      },
+  
+      {
+        "ctor": "Container",
+        "props": {
+          "id": "container_1b",
+          "css": {
+            "display": "block",
+            "justify-content": "space-between",
+            "background-color": "white",
+            "color": "black",
+          },
+          "components": [
+            // {
+            //   ctor: DataGrid,
+            //   props: {
+            //     id: "DataGrid1",
+            //     rowCount: 10, //visible rows count - virtual scrolling wil be applied on scroll
+            //     CSS: {
+            //       "background-color": "#000000",
+            //       display: "flex",
+            //       "justify-content": "space-between",
+            //       "background-color": "white",
+            //       color: "white",
+            //       border: "none",
+            //     },
+            //     dataProvider: new ArrayEx([]),
+            //     columns: [
+            //       {
+            //         width: 400,
+            //         name: "name",
+            //         field: "name",
+            //         description: "Name",
+            //         sortable: true,
+            //         sortInfo: {
+            //           sortOrder: 0,
+            //           sortDirection: "ASC",
+            //         },
+            //         editable: true,
+            //       },
+            //       {
+            //         width: 400,
+            //         name: "username",
+            //         field: "username",
+            //         description: "username",
+            //         sortable: true,
+            //         sortInfo: {
+            //           sortOrder: 0,
+            //           sortDirection: "ASC",
+            //         },
+            //         editable: true,
+            //       },
+            //       {
+            //         width: 400,
+            //         name: "email",
+            //         field: "email",
+            //         description: "email",
+            //         sortable: false,
+            //         sortInfo: {
+            //           sortOrder: 0,
+            //           sortDirection: "ASC",
+            //         },
+            //         editable: true,
+            //         itemEditor: {
+            //           ctor: TextInput,
+            //           props: {
+            //             id: "text",
+            //             value: "{email}",
+            //           },
+            //         },
+            //       },
+            //       {
+            //         width: 400,
+            //         name: "phone",
+            //         field: "phone",
+            //         description: "phone ",
+            //         sortable: true,
+            //         sortInfo: {
+            //           sortOrder: 0,
+            //           sortDirection: "ASC",
+            //         },
+            //         editable: true,
+            //         itemEditor: {
+            //           ctor: TextInput,
+            //           props: {
+            //             id: "text",
+            //             value: "{phone}",
+            //           },
+            //         },
+            //       },
+            //       {
+            //         width: 400,
+            //         name: "website",
+            //         field: "website",
+            //         description: "website ",
+            //         sortable: true,
+            //         sortInfo: {
+            //           sortOrder: 0,
+            //           sortDirection: "ASC",
+            //         },
+            //         editable: true,
+            //         itemEditor: {
+            //           ctor: TextInput,
+            //           props: {
+            //             id: "text",
+            //             value: "{website}",
+            //           },
+            //         },
+            //       },
+            //     ],
+            //   },
+            // },
+            // {
+            //   ctor: DataGrid,
+            //   props: {
+            //     id: "DataGrid",
+            //     rowCount: 10, //visible rows count - virtual scrolling wil be applied on scroll
+            //     CSS: {
+            //       "background-color": "#000000",
+            //       display: "flex",
+            //       "justify-content": "space-between",
+            //       "background-color": "white",
+            //       color: "white",
+            //       border: "none",
+            //     },
+            //     dataProvider: new ArrayEx([]),
+            //     columns: [
+            //       {
+            //         width: 400,
+            //         name: "name",
+            //         field: "name",
+            //         description: "Name",
+            //         sortable: true,
+            //         sortInfo: {
+            //           sortOrder: 0,
+            //           sortDirection: "ASC",
+            //         },
+            //         editable: true,
+            //       },
+            //       {
+            //         width: 400,
+            //         name: "username",
+            //         field: "username",
+            //         description: "username",
+            //         sortable: true,
+            //         sortInfo: {
+            //           sortOrder: 0,
+            //           sortDirection: "ASC",
+            //         },
+            //         editable: true,
+            //       },
+            //       {
+            //         width: 400,
+            //         name: "email",
+            //         field: "email",
+            //         description: "email",
+            //         sortable: false,
+            //         sortInfo: {
+            //           sortOrder: 0,
+            //           sortDirection: "ASC",
+            //         },
+            //         editable: true,
+            //         itemEditor: {
+            //           ctor: TextInput,
+            //           props: {
+            //             id: "text",
+            //             value: "{email}",
+            //           },
+            //         },
+            //       },
+            //       {
+            //         width: 400,
+            //         name: "phone",
+            //         field: "phone",
+            //         description: "phone ",
+            //         sortable: true,
+            //         sortInfo: {
+            //           sortOrder: 0,
+            //           sortDirection: "ASC",
+            //         },
+            //         editable: true,
+            //         itemEditor: {
+            //           ctor: TextInput,
+            //           props: {
+            //             id: "text",
+            //             value: "{phone}",
+            //           },
+            //         },
+            //       },
+            //       {
+            //         width: 400,
+            //         name: "website",
+            //         field: "website",
+            //         description: "website ",
+            //         sortable: true,
+            //         sortInfo: {
+            //           sortOrder: 0,
+            //           sortDirection: "ASC",
+            //         },
+            //         editable: true,
+            //         itemEditor: {
+            //           ctor: TextInput,
+            //           props: {
+            //             id: "text",
+            //             value: "{website}",
+            //           },
+            //         },
+            //       },
+            //     ],
+            //   },
+            // },
+          ],
+        },
+      },
+    ],
+  });
